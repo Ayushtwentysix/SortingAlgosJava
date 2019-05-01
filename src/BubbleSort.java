@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class BubbleSort {
-
     static int[] bubbleSortAscending(int a[]){
         for(int j=0;j<4;j++){
             for (int i=0;i<4;i++){
@@ -30,7 +29,6 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int a[] = {20,10,3,30,15};
-
         int k[]=bubbleSortAscending(a);
         int l[] = bubbleSortDescending(a);
         System.out.println(Arrays.toString(l));
